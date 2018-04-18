@@ -1,0 +1,25 @@
+name:
+  heshun:
+    title: tmall
+    description: springBoot-tmall
+#
+server:
+  port: 10086
+#
+spring:
+  # 数据源配置
+  # 其中，可以不指定 driver-class-name，因为 spring boot 会自动识别 url
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/tmall?useUnicode=true&characterEncoding=utf8&serverTimezone=UTC
+    username: root
+    password: root
+  # JPA 配置
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+# mybatis 配置
+mybatis:
+  config-location: classpath:mybatis/mybatis-config.xml
+  mapper-locations: classpath:mybatis/mapper/*.xml
