@@ -56,7 +56,7 @@
         </javaClientGenerator>
 
         <!--3.3.9 1个或多个, 生成对应表及类名 -->
-        <table tableName="category">
+        <!--<table tableName="category">
             <generatedKey column="id" sqlStatement="JDBC" identity="true"/>
         </table>
         <table tableName="order_info">
@@ -85,7 +85,7 @@
         </table>
         <table tableName="user_auths">
             <generatedKey column="id" sqlStatement="JDBC" identity="true"/>
-        </table>
+        </table>-->
 
 
 
