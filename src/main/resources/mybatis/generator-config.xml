@@ -74,7 +74,7 @@
         <table tableName="property">
             <generatedKey column="id" sqlStatement="JDBC" identity="true"/>
         </table>
-        <table tableName="proper_value">
+        <table tableName="property_value">
             <generatedKey column="id" sqlStatement="JDBC" identity="true"/>
         </table>
         <table tableName="review">
